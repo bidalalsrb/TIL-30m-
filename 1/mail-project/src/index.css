@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.email-form,
+.email-list,
+.email-detail {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 30%;
+}
+
+.email-item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.email-item h3 {
+  margin: 0;
+}
